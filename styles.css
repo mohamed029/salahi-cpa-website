@@ -111,6 +111,30 @@ body {
     width: 100%;
 }
 
+.lang-toggle {
+    background: var(--black);
+    color: var(--white);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lang-toggle:hover {
+    background: var(--gray);
+    transform: translateY(-2px);
+}
+
+.lang-text {
+    letter-spacing: 1px;
+}
+
 /* ============================
    HERO SECTION
    ============================ */
